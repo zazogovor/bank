@@ -29,8 +29,19 @@
     float: center;
   }
 }
+html { 
+	width: 100%;
+	height: 100%;
+	 background-size: cover;
+ }
+
+.body{
+	background: #b6e6ff;
+}
+
 .container {
-	text-align: center;
+	text-align: left;
+	background-color: transparent !important;
 }
 .jumbotron{
 	text-align: center;
@@ -43,7 +54,6 @@
 }
 #body{
 	padding-bottom: 70px;
-	background: url(background.jpg);
 }
 
 #footer .glyphicon {

@@ -1,48 +1,48 @@
-<p id="notice"><%= notice %></p>
+<div class = "container">
+	<div class ="row">
+		<div class="col-md-3">
+			<div class="panel panel-default">
+				<!-- Default panel contents -->
+				<div class="panel-heading">
+					<strong>Card details:</strong>
+				</div>
 
-<div class ="row">
-	<div class="col-md-3">
-		<div class="panel panel-default">
-			<!-- Default panel contents -->
-			<div class="panel-heading">
-				<strong>Card details:</strong>
-			</div>
-
-			<!-- Table -->
-			<table class="table">
-				<table style="width:100%">
-					<tbody>
-							<tr>
-								<td><strong>Card number:</strong></td>
-								<td><%= @card.id %></td>
-							</tr>
-							<tr>
-								<td><strong>Account number:</strong></td>
-								<td><%= @card.account_id %></td>
-							</tr>
-							<tr>
-								<td><strong>Firstname:</strong></td>
-								<td><%= @card.firstname %></td>
-							</tr>
-							<tr>
-								<td><strong>Middlename:</strong></td>
-								<td><%= @card.middlename %></td>
-							</tr>
-							<tr>
-								<td><strong>Lastname:</strong></td>
-								<td><%= @card.lastname %></td>
-							</tr>
-							<tr>
-								<td><strong>Due date:</strong></td>
-								<td><%= @card.due_date %></td>
-							</tr>
-							<tr>
-								<td><strong>Security number:</strong></td>
-								<td><%= @card.security_number %></td>
-							</tr>
-					  </tbody>
+				<!-- Table -->
+				<table class="table">
+					<table style="width:100%">
+						<tbody>
+								<tr>
+									<td><strong>Card number:</strong></td>
+									<td><%= @card.id %></td>
+								</tr>
+								<tr>
+									<td><strong>Account number:</strong></td>
+									<td><%= @card.account_id %></td>
+								</tr>
+								<tr>
+									<td><strong>Firstname:</strong></td>
+									<td><%= @card.firstname %></td>
+								</tr>
+								<tr>
+									<td><strong>Middlename:</strong></td>
+									<td><%= @card.middlename %></td>
+								</tr>
+								<tr>
+									<td><strong>Lastname:</strong></td>
+									<td><%= @card.lastname %></td>
+								</tr>
+								<tr>
+									<td><strong>Due date:</strong></td>
+									<td><%= @card.due_date %></td>
+								</tr>
+								<tr>
+									<td><strong>Security number:</strong></td>
+									<td><%= @card.security_number %></td>
+								</tr>
+						  </tbody>
+					</table>
 				</table>
-			</table>
+			</div>
 		</div>
 	</div>
 </div>

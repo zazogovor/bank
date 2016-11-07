@@ -11,22 +11,24 @@
     </div>
   <% end %>
   
-	<div class ="row">
-		<div class="col-md-3">
-				
-			<%= f.text_field :firstname %>
-			<%= f.text_field :middlename %>
-			<%= f.text_field :lastname %>
-			<%= f.date_select :date_of_birth %>
-			<%= f.text_field :telephone, placeholder: '0851234567'  %>
-			<%= f.text_field :address %>
-			<%= f.text_field :city %>
-			<%= f.text_field :country %>
-			<%= f.text_field :email %>
-			<%= f.password_field :password %>
-			<%= f.password_field :password_confirmation %>
-			<div class="actions">
-				<%= f.submit %>
+	<div class = "container">
+		<div class ="row">
+			<div class="col-md-3">
+					
+				<%= f.text_field :firstname %>
+				<%= f.text_field :middlename %>
+				<%= f.text_field :lastname %>
+				<%= f.date_select :date_of_birth %>
+				<%= f.text_field :telephone, placeholder: '0851234567'  %>
+				<%= f.text_field :address %>
+				<%= f.text_field :city %>
+				<%= f.text_field :country %>
+				<%= f.text_field :email %>
+				<%= f.password_field :password %>
+				<%= f.password_field :password_confirmation %>
+				<div class="actions">
+					<%= f.submit %>
+				</div>
 			</div>
 		</div>
 	</div>

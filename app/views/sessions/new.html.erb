@@ -1,8 +1,10 @@
-<h1>Log in</h1>
 <%= bootstrap_form_tag url: '/login' do |f| %>
-	<%= f.email_field :email, placeholder: 'name@example.com' %>
-	<%= f.password_field :password %>
-	<input class = "btn btn-default" type = "submit" vlue = "Log in" %>
+	<div class="col-md-3">
+		<h1>Log in</h1>
+		<%= f.email_field :email, placeholder: 'name@example.com' %>
+		<%= f.password_field :password %>
+		<input class = "btn btn-default" type = "submit" vlue = "Log in" %>
+	</div>
 <% end %>
 
 
